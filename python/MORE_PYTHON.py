@@ -1,5 +1,9 @@
 import os
 
-for i in range(100):
+for i in range(10000):
 
-    open("python_"+str(i)+".py", 'w').close()
+    f = open("python_"+str(i)+".py", 'w')
+
+    f.write("print 'PYTHON RULES'")
+
+    f.close()
