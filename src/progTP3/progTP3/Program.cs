@@ -10,6 +10,8 @@ namespace progTP3
     {
         static void Main(string[] args)
         {
+            int Peter = 0;
+            Console.WriteLine("Peter est un gros {0}", Peter);
         }
     }
 }
